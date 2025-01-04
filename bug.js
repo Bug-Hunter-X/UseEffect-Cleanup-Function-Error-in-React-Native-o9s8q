@@ -1,0 +1,1 @@
+This bug occurs when using the `useEffect` hook in React Native with a cleanup function that throws an error. This can happen if the cleanup function attempts to access or modify state or props that are no longer available after the component has unmounted.  The error is not always caught, leading to silent failures or crashes.
